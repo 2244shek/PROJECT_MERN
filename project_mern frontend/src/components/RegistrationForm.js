@@ -21,7 +21,7 @@ const RegistrationForm = () => {
         e.preventDefault();
         try {
             // const response = await axios.post('http://localhost:3001/register', user)
-            await axios.post('http://localhost:3001/register', user)
+            await axios.post('https://project-mern-api.vercel.app/register', user)
                 .then(res => {
                     if (res.data === "exist") {
                         alert("User already registered !!")
