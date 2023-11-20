@@ -27,7 +27,7 @@ const LeaveForm = () => {
     event.preventDefault();
     try {
       // Send the form data to the backend
-      const response = await fetch('http://localhost:3001/leave/submitform', {
+      const response = await fetch('https://project-mern-api.vercel.app/leave/submitform', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
