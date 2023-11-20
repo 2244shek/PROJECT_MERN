@@ -13,7 +13,7 @@ const ViewForms = () => {
 
   const fetchData = async () => {
     try {
-      const response = await fetch('http://localhost:3001/leave/getforms');
+      const response = await fetch('https://project-mern-api.vercel.app/leave/getforms');
       const data = await response.json();
       setForms(data);
     } catch (error) {
