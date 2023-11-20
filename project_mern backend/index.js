@@ -16,7 +16,7 @@ app.use(express.json());
 
 app.use(cors(
     {
-        origin : {""} ,
+        origin : {"https://mployee.vercel.app/"} ,
         method : {"POST" , "GET"} ,
         credentials : true
     }
