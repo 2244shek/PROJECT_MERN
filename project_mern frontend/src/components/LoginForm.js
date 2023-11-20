@@ -23,7 +23,7 @@ const LoginForm = () => {
         e.preventDefault();
         try {
             // const response = await axios.post('http://localhost:3001/login', credentials)
-            await axios.post('http://localhost:3001/login', credentials)
+            await axios.post('https://project-mern-api.vercel.app/login', credentials)
                 .then(res => {
                     if (res.data === "exist") {
                         navigate("/home", { state: { id: credentials.username } })
