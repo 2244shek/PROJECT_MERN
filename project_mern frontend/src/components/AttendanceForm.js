@@ -16,7 +16,7 @@ const AttendanceForm = () => {
     if (otp.length === 6 && parseInt(otp) % 2 === 0) {
       try {
         const currentDate = new Date(); // Get current date as a Date object
-        const response = await axios.post("http://localhost:3001/attendance/register", {
+        const response = await axios.post("https://project-mern-api.vercel.app/attendance/register", {
           name,
           id,
           department,
