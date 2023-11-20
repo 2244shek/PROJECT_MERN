@@ -14,7 +14,13 @@ app.use(express.json());
 // Include the User model
 // const User = require('./models/User');
 
-app.use(cors());
+app.use(cors(
+    {
+        origin : {""} ,
+        method : {"POST" , "GET"} ,
+        credentials : true
+    }
+));
 const PORT = 3001;
 
 // Connect to MongoDb ...
