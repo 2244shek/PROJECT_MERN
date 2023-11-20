@@ -12,7 +12,7 @@ const CheckByDate = () => {
     setSelectedDate(date);
     try {
       const response = await axios.get(
-        "http://localhost:3001/getEmployeesByDate?date=" + date
+        "https://project-mern-api.vercel.app/getEmployeesByDate?date=" + date
       );
 
       if (response.data.length === 0) {
