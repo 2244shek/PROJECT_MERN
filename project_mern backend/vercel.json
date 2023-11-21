@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "builds": [
+    {"src": "*.js" , "use": "@vercel/node" }
+  ],
+  "routes": [
+    {
+      "src": "/{.*}",
+      "dest": "/",
+      "methods": ["GET", "POST", "OPTIONS"],
+      "headers": {
+        "Access-Control-Allow-Origin": "https://mployee-2244sheks-projects.vercel.app",
+        "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
+        "Access-Control-Allow-Headers": "Content-Type"
+      }
+    }
+  ]
+}
