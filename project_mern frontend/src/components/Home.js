@@ -14,10 +14,10 @@ function Home() {
                 <p> Hello, <span>{location.state.id} </span></p>
                 <h1> Notices</h1>
                 <ul>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem natus consequuntur soluta sint dolore dolorum accusamus quae unde minima vero?</li>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem natus consequuntur soluta sint dolore dolorum accusamus quae unde minima vero?</li>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem natus consequuntur soluta sint dolore dolorum accusamus quae unde minima vero?</li>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem natus consequuntur soluta sint dolore dolorum accusamus quae unde minima vero?</li>
+                    <li>Making a Difference - Mployee in the Community</li>
+                    <li>A Decade of Dedication - Celebrating Ravi Kumar's Milestone</li>
+                    <li>Bridging Gaps, Building Success - Krish Nambiyar</li>
+                    <li><a href='#'>Please use this form to confidentially report any concerns or complaints you may have regarding workplace issues.</a></li>
                 </ul>
             </div>
 
